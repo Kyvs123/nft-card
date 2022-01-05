@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <article class="card">
+      <div class="container">
+        <!-- <div class="overlay">
+          <a href="#">
+            <img src="/images/icon-view.svg"     alt="eye"  />
+          </a>
+        </div> ainda não consigo resolver o hover da imagem-->
+
+        <img
+          src="images/image-equilibrium.jpg"
+          alt="Equilibrium image"
+          class="image"
+          style="width: 100%"
+        />
+        
+
+        <h1>Equilibrium #3429</h1>
+
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </div>
+
+      <section class="level">
+        <div class="points">
+          <img src="images/icon-ethereum.svg" alt="Ethereum icon" />
+          0.041 ETH
+        </div>
+        <div class="time">
+          <img src="images/icon-clock.svg" alt="Clock icon" /> 3 days left
+        </div>
+      </section>
+      <div class="user">
+        <img src="images/image-avatar.png" alt="Avatar" width="35px" />
+        <p>Creation of <span>Jules Wyvern</span></p>
+      </div>
+    </article>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kyvs</a>.
+    </div>
+  </body>
+</html>

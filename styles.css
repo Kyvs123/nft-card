@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.card {
+  position: relative;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  height: 580px;
+  width: 330px;
+
+  background-color: hsl(216, 50%, 16%);
+
+  border-radius: 12px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.281);
+}
+
+.container{
+    position: relative;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.25rem;
+  width: 100%;
+
+  border-radius: 12px;
+}
+
+/* .overlay{
+    position: absolute;
+    background-color: rgba(0, 255, 255, 0.267);
+    width: 280px;
+    height: 280px;
+    border-radius: 12px;
+    text-align: center;
+    
+    hover da imagem pendente
+
+} */
+
+
+
+h1 {
+  margin-bottom: 1.25rem;
+
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+h1:hover {
+  color: cyan;
+  cursor: pointer;
+}
+.container p {
+  margin-bottom: 1.25rem;
+
+  font-size: 18px;
+}
+.level {
+  display: flex;
+  justify-content: space-between;
+}
+.points {
+  display: flex;
+  gap: 8px;
+
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+.time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.user {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+
+  border-top: solid 1px hsl(215, 32%, 27%);
+}
+.user img {
+  margin-right: 1rem;
+
+  border: solid hsl(0, 0%, 100%) 1px;
+  border-radius: 50%;
+}
+.user span {
+  color: hsl(0, 0%, 100%);
+}
+.user span:hover {
+  color: cyan;
+  cursor: pointer;
+}
+/* responsive mobile */
+/* @media (max-width: 600px) {
+  .card {
+    margin: 1rem auto;
+    height: 580px;
+  }
+} desnecessário*/
