@@ -96,6 +96,7 @@ h1:hover {
 }
 .user img {
   margin-right: 1rem;
+  width: 35px;
 
   border: solid hsl(0, 0%, 100%) 1px;
   border-radius: 50%;
