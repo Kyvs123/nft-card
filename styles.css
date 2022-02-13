@@ -108,6 +108,11 @@ h1:hover {
   color: cyan;
   cursor: pointer;
 }
+
+footer{
+  text-align: center;
+  font-size: .5rem;
+}
 /* responsive mobile */
 /* @media (max-width: 600px) {
   .card {
